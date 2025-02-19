@@ -80,7 +80,7 @@ public class Suma {
         return this.valorAcumulado;
     }
 
-    public static void menuSuma(){
+    public static void menu(){
         Scanner sc = new Scanner(System.in);
         int numero;
         double a, b, c;

@@ -19,7 +19,7 @@ public class Main {
 
            switch (numero) {
                case 1:
-                   //javabean.Suma.menu();
+                   javabean.Suma.menu();
                    break;
                case 2:
                   // Resta.menu();
