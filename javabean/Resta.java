@@ -13,14 +13,14 @@ import java.util.Scanner;
  * 3. Resta de tres números reales.
  * 4. Resta con valor acumulado.
  */
-public class CalculadoraResta {
+public class Resta {
 
     private double valorAcumulado;
 
     /**
      * Constructor que inicializa el valor acumulado en 0.
      */
-    public CalculadoraResta() {
+    public Resta() {
         this.valorAcumulado = 0;
     }
 
@@ -93,7 +93,7 @@ public class CalculadoraResta {
         int numero;
         double a, b, c;
         int x, y;
-        CalculadoraResta resta = new CalculadoraResta();
+        Resta resta = new Resta();
         do{
             System.out.println("\n MENU RESTA");
             System.out.println("1. Restar 2 numeros reales");

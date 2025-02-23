@@ -9,7 +9,7 @@ class MultiplicacionTest {
     
     private Multiplicacion multiplicacion;
 
-    @BeforeEach
+//    @BeforeEach
     void setUp() {
         multiplicacion = new Multiplicacion();
     }

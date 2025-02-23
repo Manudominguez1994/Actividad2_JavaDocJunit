@@ -22,10 +22,10 @@ public class Main {
                    javabean.Suma.menu();
                    break;
                case 2:
-                  // Resta.menu();
+                   Resta.menu();
                    break;
                case 3:
-                  // Producto.menu();
+                   Multiplicacion.menu();
                    break;
                case 4:
                    Cociente.menu();

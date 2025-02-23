@@ -68,11 +68,28 @@ public class Suma {
      * @return la suma del valorAcumulado + a
      * @error Si a es menor que 0 la operacion no se hara
      */
-    public double acumulador(double a){
-        if (a < 0){
-            System.out.println("Valor invalido, estas introduciendo un valor negativo");
+    public double acumulador(double a) {
+        if (a < 0) {
+            System.out.println("Valor inválido, estás introduciendo un valor negativo");
+            return this.valorAcumulado; // No suma el número negativo
         }
-        return this.valorAcumulado + a;
+        return this.valorAcumulado += a;
+    }
+
+
+    // Método para sumar con valor acumulado
+    public void sumar(double valor) {
+        this.valorAcumulado += valor;
+    }
+
+    // Método para obtener el valor acumulado
+    public double getAcumulado() {
+        return this.valorAcumulado;
+    }
+
+    // Método para reiniciar el acumulado si es necesario
+    public void reiniciar() {
+        this.valorAcumulado = 0;
     }
 
     public double resetAcumulador(){
@@ -125,7 +142,7 @@ public class Suma {
                     System.out.println("Si introduces un numero negativo finaliza la operacion");
                     System.out.println("Introduce un numero (real): ");
                     a = sc.nextDouble();
-                    System.out.println("Resultado: " + suma.valorAcumulado);
+                    System.out.println("Resultado: " + suma.acumulador(a));
                     break;
                 case 5:
                     System.out.println("Reseteando acumulador");
