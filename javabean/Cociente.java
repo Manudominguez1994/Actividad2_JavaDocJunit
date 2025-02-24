@@ -5,6 +5,10 @@ import java.util.Scanner;
 /**
  *  @author Manuel_Dominguez_Navarro
  *  Git-Hub-> <a>https://github.com/Manudominguez1994</a>
+ *  Esta clase implementa operaciones matemáticas relacionadas con la división.
+ *  Permite dividir números reales y enteros, calcular el inverso de un número y obtener su raíz cuadrada.
+ *  Incluye validaciones para evitar divisiones por cero y el uso de números negativos.
+ *  Además, cuenta con un menú interactivo que permite al usuario seleccionar y ejecutar las distintas operaciones.
  */
 
 public class Cociente {
